@@ -1,4 +1,4 @@
-# Apache Solr GCP-Guardium Logstash filter plug-in
+# Test Apache Solr GCP-Guardium Logstash filter plug-in
 
 This is a Logstash filter plug-in for the universal connector that is featured in IBM Security Guardium. It parses a GCP (Google Cloud Platform) event logs into a Guardium record instance (which is a standard structure made out of several parts). The information is then sent over to Guardium. Guardium records include the accessor (the person who tried to access the data), the session, data, and exceptions. If there are no errors, the data contains details about the query "construct". The construct details the main action (verb) and collections (objects) involved.
 The Apache Solr GCP plugin supports only Guardium Data Protection as of now.
